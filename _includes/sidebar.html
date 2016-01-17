@@ -1,0 +1,32 @@
+<aside id="sidebar">
+    <!-- Mobile menu button -->
+    <div id="toggle-sidebar">&#8226;&#8226;&#8226;</div>
+    <!-- Name of the course -->
+    <h3 id="course-name">
+        <a href="/courses/{{ page.code }}" title="Gå till kurssidan för {{ site.data[page.code].name }}">
+            {{ site.data[page.code].name }}
+            <small>{{ page.code | upcase }} -  {{ site.data[page.code].credits }} hp</small>
+        </a>
+    </h3>
+    <!-- Sidebar menu -->
+    <nav class="menu">
+        {% for menuitem in site.data[page.code].menu %}
+        {% if menuitem.submenu == true %}
+        <div class="submenu">
+            <span class="submenu-label">
+                {{ menuitem.label }}
+                <span class="submenu-expand">+</span>
+            </span>
+            <nav class="submenu-items">
+                {% for submenuitem in menuitem.items %}
+                {% capture href %}{% if submenuitem.file %}{{ submenuitem.file | append: '.html' }}{% else %}{{ menuitem.prefix }}{{ forloop.index | append: '.html' }}{% endif %}{% endcapture %}
+                <a class="submenu-item" href="/courses/{{ page.code }}/{{ menuitem.folder }}/{{ href }}" title="Gå till {{ submenuitem.name }}"><span>{{ submenuitem.name }}</span></a>
+                {% endfor %}
+            </nav>
+        </div>
+        {% else %}
+        <a class="menu-item" href="/courses/{{ page.code }}/{% if menuitem.file %}{{ menuitem.file | append: '.html' }}{% else %}{{ menuitem.folder }}{% endif %}" title="Gå till {{ menuitem.label }}">{{ menuitem.label }}</a>
+        {% endif %}
+        {% endfor %}
+    </nav>
+</aside>

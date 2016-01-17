@@ -1,0 +1,46 @@
+# General information
+name: Webbutveckling 1
+code: da280a
+credits: 7.5
+
+# Sidebar
+menu:
+    - label: Planering
+      file: plan
+      
+    - label: Moduler
+      submenu: true
+      prefix: mod
+      folder: modules
+      items:
+          - name: 1. Introduktion till HTML
+          - name: 2. Tabeller, bilder, m.m.
+          - name: 3. Formulär
+          - name: 4. Introduktion till CSS
+          - name: 5. Layout med CSS
+          - name: 6. Responsive web design
+
+    # - label: Material
+    #   submenu: true
+    #   prefix: mat
+    #   folder: material
+    #   items:
+    #       - name: Kom igång med dvwebb
+    
+    - label: Uppgifter
+      submenu: true
+      prefix: uppg
+      folder: assignments
+      items:
+          - name: Inlämningsuppgift 1
+          - name: Inlämningsuppgift 2
+          - name: Inlämningsuppgift 3
+          - name: Inlämningsuppgift 4
+          - name: Inlämningsuppgift 5
+          - name: Inlämningsuppgift 6
+
+    - label: Material
+      folder: material
+
+    - label: Frågor och svar
+      file: faq

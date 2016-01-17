@@ -1,0 +1,20 @@
+# courses
+- name: Webbutveckling 1
+  code: da280a
+  credits: 7.5
+  info: 25% Distans
+
+- name: "Webbutveckling: Fortsättningskurs"
+  code: da122a
+  credits: 7.5
+  info: 25% Distans
+
+# - name: "Webbutveckling 2: Klient"
+#   code: daxxxa
+#   credits: 7.5
+#   info: 25% Distans
+# 
+# - name: "Webbutveckling 2: server"
+#   code: daxxxa
+#   credits: 7.5
+#   info: 25% Distans

@@ -1,0 +1,27 @@
+---
+layout: default
+title: Kontakt
+class: contact
+markdown: 0
+---
+
+<div class="contact-information">
+    <article>
+        <h2>Kontaktpersoner</h2>
+        <ul class="members">
+            {% for member in site.data.members %}
+            <li>
+                <ul class="member">
+                    <li class="member-name">{{ member.name }}</li>
+                    <li class="member-email">{{ member.email }}</li>
+                    <li class="member-phone">{{ member.phone }}</li>
+                </ul>
+            </li>
+            {% endfor %}
+        </ul>
+    </article>
+    <article>
+        <h2>Övrigt</h2>
+        <p>Distanskurserna ges av Fakulteten för teknik och samhälle på institutionen Datavetenskap. Denna webbplats används i kombination med lärplatformen <a href="https://mah.itslearning.com/Index.aspx">It's Learning</a>. På It's Learning publiceras information (eller kortare meddelanden) för respektive distanskurs och det är även där uppgifter lämnas in för rättning.</p>
+    </article>
+</div>

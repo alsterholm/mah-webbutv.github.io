@@ -1,0 +1,650 @@
+/* Apply a natural box layout model to all elements (@paulirish) */
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/**
+ * General and content
+ **/
+body {
+    font-family: $main-font;
+    font-weight: 400;
+    font-size: 15px;
+    color: #34495e;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+p {
+    word-spacing: 0.05em;
+}
+
+h1, h2, h3, h4, strong {
+    position: relative;
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+a {
+    text-decoration: none;
+    color: #34495e;
+}
+
+code, pre {
+    font-family: $code-font;
+    font-size: 0.9em;
+    background-color: #f3f3f3;
+    -webkit-font-smoothing: initial;
+    -moz-osx-font-smoothing: initial;
+}
+
+code {
+    color: #525252;
+    padding: 2px 6px;
+    margin: 0 2px;
+    border: 1px solid #e6e6e6;
+    white-space: nowrap;
+    border-radius: 3px;
+}
+
+.info code {
+    background-color: #ffffff;
+    border-color: #c9c9c9;
+}
+
+.highlight {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.125);
+    position: relative;
+}
+
+.highlight .toggle-lineno {
+    position: absolute;
+    top: 7px;
+    right: 6px;
+    background: transparent;
+    border: 0;
+    color: $accent-color;
+    font-size: 0.9em;
+    display: none;
+}
+
+.highlight .codepen-button {
+    position: absolute;
+    bottom: 7px;
+    right: 6px;
+    background: transparent;
+    border: 0;
+    color: $accent-color;
+    font-size: 0.9em;
+    display: none;
+}
+
+.highlight:hover .toggle-lineno,
+.highlight:hover .codepen-button {
+    display: inline;
+}
+
+.highlight .toggle-lineno:hover,
+.highlight .codepen-button:hover {
+    text-decoration: underline;
+}
+
+.highlight .toggle-lineno .show {
+    display: none;
+}
+
+.highlight.toggle .toggle-lineno .show {
+    display: inline;
+}
+
+.highlight.toggle .toggle-lineno .hide {
+    display: none;
+}
+
+.highlight pre code {
+    display: block; 
+    position: relative;
+    padding: 1.7em 1em;
+    margin: 0;
+    overflow-x: auto;
+    background-color: #f3f3f3;
+    line-height: 1.1em;
+    font-size: 0.95em;
+}
+
+.highlight .lineno {
+    color: #999;
+    display: inline-block;
+    padding: 0.15em 1.2em;
+    margin: 0;
+}
+
+/* Hide line numbers */
+.highlight.toggle .lineno {
+    visibility: hidden;
+}
+
+.highlight code {
+    border: 0;
+    white-space: inherit;
+}
+
+.content {
+    max-width: 650px;
+    min-height: 300px; /* TODO: find a proper way of solving this. */
+    margin: 0 auto;
+    padding-top: 1em;
+}
+
+.highlight,
+.content figure,
+.content p,
+.content ul,
+.content ol {
+    margin: 1em 0 1em 0.8em;
+}
+
+.content p,
+.content ul,
+.content ol {
+    line-height: 1.6em;
+    // text-align: justify;
+}
+
+.content a {
+    color: $accent-color;
+    font-weight: 600;
+}
+
+.content a:hover {
+    text-decoration: underline;
+}
+
+.content p img {
+    display: block;
+    margin: 1.5em auto 1.2em auto;
+    max-width: 100%;
+}
+
+/* TODO: find a proper way of having formatted text under images. */
+.content p img + em {
+    display: block;
+    text-align: center;
+    font-style: normal;
+    margin-bottom: 2em;
+}
+
+#contribute {
+    margin-top: 4em;
+    margin-left: 0.8em;
+    margin-bottom: 2em;
+    padding-top: 1em;
+    border-top: 1px solid #e5e5e5;
+    font-size: 0.9em;
+    color: #7f8c8d;
+
+    p {
+        margin-left: 0;
+    }
+}
+
+table {
+   width: 100%;
+   max-width: 100%;
+   margin: 20px auto;
+   border-spacing: 0;
+   border-collapse: collapse;
+}
+
+table tbody {
+    border-bottom: 1px solid #dddddd;
+}
+
+th {
+    text-align: left;
+}
+
+table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dddddd;
+    padding: 8px;
+}
+
+table tbody td {
+   padding: 8px; 
+   vertical-align: top;
+   border-top: 1px solid #dddddd;
+}
+
+table.small tbody td {
+    font-size: 0.9em;
+}
+
+table tbody tr:nth-child(odd) {
+    background: #f3f3f3;
+}
+
+/**
+ * Header (navigation)
+ **/
+#header {
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.35);
+
+    .header-inner {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 1.6em 0;
+        display: flex;
+        display: -webkit-flex;
+        display: -ms-flex;
+        justify-content: space-between;
+        -webkit-justify-content: space-between;
+        -ms-justify-content: space-between;
+    }
+
+    .brand {
+        margin: 0 0.6em;
+        font-size: 1.2em;
+
+        &:hover {
+            color: $accent-color;
+        }
+    }
+
+    nav a {
+        margin: 0 0.6em;
+        padding-bottom: 0.2em;
+        border-bottom: 3px solid transparent;
+
+        &:hover, &.current {
+            border-bottom: 3px solid $accent-color;
+        }
+    }
+}
+
+/**
+ * Footer
+ **/
+
+#footer {
+    margin-top: 4em;
+
+    .footer-top {
+        background: #f3f3f3;
+        padding: 3em 1em;
+
+        .footer-top-inner {
+            margin: 0 auto;
+            max-width: 700px;
+            display: flex;
+            display: -webkit-flex;
+            display: -ms-flex;
+        }
+
+        article {
+            flex: 1 1 0;
+            -webkit-flex: 1 1 0;
+            -ms-flex: 1 1 0;
+            padding: 0 2em;
+        }
+
+        h4 {
+            color: #34495e;
+            font-size: 1.4em;
+            text-align: center;
+            margin: 0 0 0.5em 0;
+        }
+
+        p {
+            color: #687374;
+            font-size: 0.9em;
+            margin: 0;
+        }
+
+        a {
+            color: $accent-color;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .footer-bottom {
+        background: #7f8c8d;
+        padding: 2em 1em;
+
+        .footer-bottom-inner {
+            text-align: center;
+        }
+
+        a {
+            font-size: 1.1em;
+            color: white;
+            margin: 0 0.8em;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+
+        .sep {
+            color: white;
+            font-size: 1.5em;
+        }
+    }
+}
+
+/**
+ * Sidebar
+ **/
+#sidebar {
+    position: absolute;
+    z-index: 100;
+    margin-top: 1em;
+    margin-left: 2em;
+    max-width: 19em;
+    padding-right: 0.8em;
+
+    #toggle-sidebar {
+        display: none;
+        text-align: center;
+        font-size: 1.3em;
+        line-height: 0.8em;
+        cursor: pointer;
+        padding: 0.5em 0;
+        letter-spacing: 0.1em;
+
+        &:hover {
+            background: #f3f3f3;
+        }
+    }
+
+    #course-name {
+        font-weight: normal;
+
+        a:hover {
+            color: $accent-color;
+        }
+    
+        small {
+            display: block;
+            font-size: 0.85em;
+            color: #727b7c;
+            margin-top: 0.3em;
+        }
+    }
+
+    nav, .submenu-items {
+        padding-left: 0.6em;
+    }
+
+    .menu-item:hover, .menu-item.active {
+        color: $accent-color;
+    }
+
+    .menu-item, .submenu-label {
+        display: block;
+    }
+
+    .submenu-label {
+        .submenu-expand {
+            display: none;
+            color: $accent-color;
+            margin-left: 0.3em;
+        }
+
+        &:hover {
+            cursor: pointer;
+
+            .submenu-expand {
+                display: inline;
+                color: $accent-color;
+            }
+        }
+    }
+
+    .menu-item, .submenu, .submenu-label {
+        margin-bottom: 0.4em;
+    }
+
+    .submenu-items {
+        display: none;
+    }
+
+    .submenu.open .submenu-items {
+        display: block;
+    }
+
+    .submenu-item {
+        display: block;
+        font-size: 0.9em;
+        margin-bottom: 0.4em;
+
+        &:hover span, &.active span {
+            border-color: $accent-color;
+        }
+
+        span {
+            display: inline-block;
+            border-bottom: 2px solid transparent;
+        }
+    }
+}
+
+.fixed-sidebar {
+    #sidebar {
+        position: fixed;
+        top: 0;
+        overflow-y: auto;
+        overflow-x: hidden;
+        max-height: 92%;
+    }
+}
+
+/**
+ * Info-boxes
+ **/
+.content {
+    
+    p.info {
+        padding: 12px 24px 12px 30px;
+        margin: 2em 0 2em 0.8em;
+        border-left: 4px solid $info-color;
+        background-color: #f3f3f3;
+        position: relative;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        box-shadow: 0 1px 1px rgba(0,0,0,0.125);
+    }
+
+    p.info:before {
+        position: absolute;
+        top: 50%;
+        margin-top: -15px;
+        left: -17px;
+        background-color: $info-color;
+        color: #fff;
+        content: "i";
+        width: 30px;
+        height: 30px;
+        border-radius: 100%;
+        text-align: center;
+        line-height: 30px;
+        font-weight: bold;
+        font-family: Georgia;
+    }
+
+    p.info.loading {
+        border-color: #f7e274;
+    }
+
+    p.info.loading:before {
+        background-color: #f7e274;
+        color: #666666;
+    }
+
+    p.info.error {
+        border-color: #ef7474;
+    }
+
+    p.info.error:before {
+        background-color: #ef7474;
+        color: #000000;
+    }
+}
+
+/**
+ * Link to the top of a page
+ **/
+.up {
+    display: none;
+    position: fixed;
+    bottom: 2.3em;
+    right: 2.1em;
+    font-size: 1.4em;
+
+    a {
+        padding: 6px 20px 11px 20px;
+        background: #f0f0f0;
+        border-radius: 4px;
+        box-shadow: 0 1px 1px rgba(0,0,0,0.23);
+
+        &:hover {
+            background: #eaeaea;
+        }
+    }
+}
+
+.fix-sidebar .up {
+    display: block;
+}
+
+/**
+ * Anchors for headings
+ **/
+.header-anchor {
+    display: none;
+}
+
+.header-anchor:hover,
+.content h1:hover .header-anchor,
+.content h2:hover .header-anchor,
+.content h3:hover .header-anchor {
+    display: inline;
+}
+
+.header-anchor:hover::after {
+    color: $accent-color;
+}
+
+.header-anchor::after {
+    content: "#";
+    color: #888888;
+    font-size: 0.8em;
+    padding: 4px 6px;
+    position: absolute;
+}
+
+/**
+ * Iframes
+ **/
+.video {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 35px;
+    height: 0;
+    overflow: hidden;
+
+    iframe {
+        position: absolute;
+        top:0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    // Hide the extra div from slideshare by default.
+    div {
+        display: none;
+    }
+}
+
+/**
+ * Home
+ **/
+.home {
+    .courses li {
+        margin-bottom: 0.6em;
+    }
+
+    .course-name {
+        display: block;
+        font-size: 1.2em;
+        font-weight: normal;
+    }
+
+    .course-code,
+    .course-credits,
+    .course-info {
+        color: #838E8F;
+    }
+}
+
+/**
+ * Courses
+ **/
+.courses-overview {
+    h1 {
+        text-align: center;
+    }
+
+    .courses {
+        list-style: none;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .courses li {
+        margin-bottom: 1em;
+    }
+
+    .course-name {
+        display: block;
+        font-size: 1.4em;
+        font-weight: normal;
+    }
+
+    .course-code,
+    .course-credits,
+    .course-info {
+        color: #838E8F;
+        font-size: 1em;
+    }
+}
+
+/**
+ * Contact
+ **/
+.contact {
+    .members {
+        padding-left: 0;
+        list-style: none;
+    }
+
+    ul ul {
+        list-style: square;
+    }
+}
+
+/**
+ * Module
+ **/
+
+.module {
+    // Module-specific, or just course-related
+}

@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+    {% include head.html %}
+    <body class="faq {{ page.class }}">
+        {% include header.html %}
+
+        <div class="content" id="content">
+        {% if page.markdown == 0 %}
+            {{ content }}
+        {% else %}
+            {{ content || markdownify }}
+        {% endif %}
+
+        {% if page.disqus == 1 %}
+            {% include disqus.html %}
+        {% endif %}
+        </div>
+
+        {% include footer.html %}
+    </body>
+</html>
+

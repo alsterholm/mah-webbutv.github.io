@@ -1,0 +1,13 @@
+---
+---
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+/* TEAM */
+   {% for member in site.data.members %}
+   {{ member.name }}
+   Site: {% if member.site %}{{ member.site }}{% endif %}
+   Github: {% if member.github %}{{ member.github }}{% endif %}
+   Twitter: {% if member.twitter %}{{ member.twitter }}{% endif %}
+   Location: {% if member.location %}{{ member.location }}{% endif %}
+   {% endfor %}

@@ -1,0 +1,48 @@
+# ===============
+# Configuration
+# ===============
+
+# Page name
+name: Mah-webbutv
+# Description of the page/course
+description: Samlingsplats för öppna distanskurser på Malmö Högskola inom webbutveckling från datavetenskap
+# Github repository hosting this page/course
+github: https://github.com/mah-webbutv/mah-webbutv.github.io
+# Google analytics
+analytics: UA-48530327-5
+# ex. GitHub pages URL
+url: http://mah-webbutv.github.io/
+# Disqus
+disqus: http://mahwebbutv.disqus.com/embed.js
+
+# Already set as defaults in jekyll > 2.4.x
+# highlighter: pygments
+# markdown: kramdown
+# include: ['.htaccess']
+
+# Default layouts for posts and pages
+defaults:
+  -
+    scope: 
+      path: "courses"
+    values:
+      layout: "course"
+# SASS partial directory and output parameters
+sass:
+  sass_dir: _sass
+  style: :compressed
+# Files to be excluded (feel free to exclude files like: search.json, rss.xml, humans.txt, etc.)
+exclude: ['Gemfile', 'Gemfile.lock', 'README.md', 'LICENSE.txt', 'node_modules']
+# Encoding
+encoding: utf-8
+# Main navigation (also found in the footer)
+navigation:
+    - label: Hem
+      href: /
+      title: Gå till startsidan
+    - label: Kurser
+      href: /courses
+      title: Gå till kursöversikt
+    - label: Kontakt
+      href: /contact
+      title: Gå till kontaktsidan

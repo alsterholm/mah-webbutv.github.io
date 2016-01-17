@@ -1,0 +1,10 @@
+<header id="header">
+    <div class="header-inner">
+        <a class="brand" href="/">{{ site.name }}</a>
+        <nav>
+            {% for item in site.navigation %}
+            <a href="{{ item.href }}" title="{{ item.title }}">{{ item.label }}</a>
+            {% endfor %}
+        </nav>
+    </div>
+</header>

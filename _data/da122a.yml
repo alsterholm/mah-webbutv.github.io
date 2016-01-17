@@ -1,0 +1,41 @@
+# General information
+name: "Webbutveckling: Fortsättningskurs"
+code: da122a
+credits: 7.5
+
+# Sidebar
+menu:
+    - label: Planering
+      file: plan
+      
+    # - label: Moduler
+    #   submenu: true
+    #   prefix: mod
+    #   folder: modules
+    #   items:
+    #       - name: 1. Användbarhet
+    #       - name: "2. CSS: Presentation"
+    #       - name: "3. HTML och CSS: Layout"
+    #       - name: 4. Introduktion till programmering
+    #       - name: 5. Webbprogrammering med JavaScript del 1
+    #       - name: 6. Webbprogrammering med JavaScript del 2
+
+    - label: Material
+      folder: material
+
+    - label: Uppgifter
+      submenu: true
+      prefix: uppg
+      folder: assignments
+      items:
+          - name: Inlämningsuppgift 1
+          - name: Inlämningsuppgift 2
+          - name: Inlämningsuppgift 3
+          - name: Inlämningsuppgift 4
+          - name: Inlämningsuppgift 5
+          - name: Inlämningsuppgift 6
+          - name: Inlämningsuppgift 7
+
+    - label: Frågor och svar
+      file: faq
+

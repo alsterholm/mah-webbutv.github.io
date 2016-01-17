@@ -1,0 +1,22 @@
+---
+title: Kurser
+layout: default
+markdown: 0
+class: courses-overview
+---
+
+<article>
+    <h1>Kurser</h1>
+    <ul class="courses">
+        {% for course in site.data.courses %}
+        <li>
+            <a href="/courses/{{ course.code }}" title="Gå till kursen {{ course.name }}">
+                <span class="course-name">{{ course.name }}</span>
+                <span class="course-code">{{ course.code | upcase }}</span> - 
+                <span class="course-credits">{{ course.credits }} hp</span> - 
+                <span class="course-info">{{ course.info }}</span>
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+</article>
