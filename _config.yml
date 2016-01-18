@@ -13,7 +13,7 @@ analytics: UA-48530327-5
 # ex. GitHub pages URL
 url: http://mah-webbutv.github.io/
 # Disqus
-disqus: http://mahwebbutv.disqus.com/embed.js
+disqus: //mahwebbutv.disqus.com/embed.js
 
 # Already set as defaults in jekyll > 2.4.x
 # highlighter: pygments
