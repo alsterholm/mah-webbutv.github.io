@@ -4,7 +4,7 @@
 <script>
     function disqus_config() {
         // Page's canonical URL variable
-        this.page.url = "{{ site.url }}";
+        this.page.url = location.href;
         // Page's unique identifier variable
         this.page.identifier = location.pathname;
     }
