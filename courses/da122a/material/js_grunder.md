@@ -56,7 +56,7 @@ document.write(name);
 {% endhighlight %}
 
 **I webbläsaren**
-{% highlight html linenos %}
+{% highlight html %}
 Lisa
 {% endhighlight %}
 
@@ -73,7 +73,7 @@ document.write(hej);
 {% endhighlight %}
 
 **I webbläsaren**
-{% highlight html linenos %}
+{% highlight html %}
 Lisa
 Lisa
 Lisa
@@ -95,7 +95,7 @@ document.writeln(name);
 {% endhighlight %}
 
 **I webbläsaren**
-{% highlight html linenos %}
+{% highlight html %}
 EvaEvaEVa
 
 Eva
@@ -123,7 +123,7 @@ document.writeln("Hej " + "Lasse");
 {% endhighlight %}
 
 **I webbläsaren**
-{% highlight html linenos %}
+{% highlight html %}
 Hej Lasse
 
 Hej Lasse
@@ -159,7 +159,7 @@ document.writeln(detective);
 {% endhighlight %}
 
 **I webbläsaren**
-{% highlight html linenos %}
+{% highlight html %}
 Sherlock
 33
 true
@@ -183,7 +183,7 @@ document.writeln(summa2);
 {% endhighlight %}
 
 **I webbläsaren**
-{% highlight html linenos %}
+{% highlight html %}
 57
 12
 {% endhighlight %}
@@ -200,7 +200,7 @@ document.writeln("Jag är " + age + " år");
 {% endhighlight %}
 
 **I webbläsaren**
-{% highlight html linenos %}
+{% highlight html %}
 Jag är 23 år
 {% endhighlight %}
 
@@ -229,7 +229,7 @@ Till exempel:
 {% endhighlight %}
 
 **I webbläsaren**
-{% highlight html linenos %}
+{% highlight html %}
 
 {% endhighlight %}
 
