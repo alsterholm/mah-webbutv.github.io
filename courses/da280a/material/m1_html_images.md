@@ -14,8 +14,6 @@ Ett talesätt är att en bild säger mer än tusen ord - och visst vill vi ha m�
 
 ### Sökvägar
 
-Elementet för att skapa en bild på en webbsida är <img>. Men bara genom att skriva <img> kommer man inte så långt. Man säger visserligen att en bild ska visas, men inte vilken bild. Vi behöver alltså specificera var bilden som vi vill visa ligger. Detta gör man genom attributet src, och sökvägen till bilden kan anges på två olika sätt:
-
 Det element som används för att skapa en bild på en webbplats är `<img>`. Men bara genom att skriva detta element så kommer vi inte så långt. Vi anger visserligen att en bild ska visas - men inte vilken bild. Vi behöver alltså specificera vilken bild och var denna befinner sig - så den kan visas. Detta görs genom HTML-attributet "src" (eng. source) - här fyller vi i sökvägen till bilden (sökvägen är alltså en beskrivning av vart vår bild befinner sig på en dator, t.ex i en mapp). Detta kan göras på ett av två sätt:
 
 * Relativt
