@@ -16,7 +16,7 @@ Andra inlämningsuppiften går ut på att ni med hjälp av CSS ska ändra utseen
 
 Ni ska göra sidan i tre olika designer, två förutbestämda och en egen. [Sidan ni ska designa](/courses/da122a/material/inl2_html.html) består av två stycken artiklar från [www.sweclockers.com](www.sweclockers.com) som i sin tur består av rubrik, publiceringstid, ingress, brödtext och en bild. Allt detta ligger i en `<div>` som har `id="articles"`. Nedan presenteras ett utdrag av HTML-koden, för att få en mer detaljerad syn kan ni titta på källkoden av [sidan som ni ska designa](/courses/da122a/material/inl2_html.html):
 
-{% highlight html linenos %}
+``` html
 <!-- ... -->
 <body>
     <div id="articles">
@@ -42,7 +42,7 @@ Ni ska göra sidan i tre olika designer, två förutbestämda och en egen. [Sida
     </div>
 </body>
 <!-- ... -->
-{% endhighlight %}
+```
 
 Det ni ska formge är alltså:
 
@@ -71,7 +71,7 @@ Börja med att designa de mest övergripande elementen, dvs. `id="articles"` och
 
 ### Mall
 
-[Klicka ähr för att hämta en mall](/courses/da122a/material/inl2_zip.zip) bestående av tre stycken HTML-dokument med tre stycken CSS-mallar länkade till sig. I `.zip` filen finns även en brakgrundsbild till den första designen.
+[Klicka här för att hämta en mall](/courses/da122a/material/inl2_zip.zip) bestående av tre stycken HTML-dokument med tre stycken CSS-mallar länkade till sig. I `.zip` filen finns även en brakgrundsbild till den första designen.
 
 ## Kravspecifikation
 
