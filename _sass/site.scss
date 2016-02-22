@@ -105,7 +105,8 @@ code {
     display: none;
 }
 
-.highlight pre code {
+.highlight pre code,
+.highlighter-rouge pre code {
     display: block; 
     position: relative;
     padding: 1.7em 1em;
@@ -114,6 +115,31 @@ code {
     background-color: #f3f3f3;
     line-height: 1.1em;
     font-size: 0.95em;
+}
+
+.highlighter-rouge pre code {
+    padding-left: 2em;
+}
+
+.highlight table {
+    margin: 0;
+    width: auto;
+}
+.highlight table tbody {
+    border: 0;
+}
+
+.highlight table tbody td {
+    text-align: left;
+    border: 0;
+    padding: 0;
+}
+
+.highlight table tbody pre {
+    margin: 0;
+}
+.highlight table .lineno {
+    padding: 0 1.2em;
 }
 
 .highlight .lineno {
