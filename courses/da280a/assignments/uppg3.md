@@ -77,7 +77,7 @@ Formuläret ska sedan skickas (när besökaren klickar på "skicka") till följa
 
 **Följande krav ställs på er kod:**
 
-* Valideras genom [W3C's valideringsverktyg](http://validator.w3.org)
+* Valideras genom [W3C's valideringsverktyg](http://validator.w3.org) - koden **måste** därför vara felfri
 * Korrekt struktur i form av indentering (indrag)
 * Dokumentation i form av kommentarer
 * Korrekt användning av HTML-element för de olika typerna av information som ni har på er sida
@@ -92,6 +92,7 @@ Formuläret ska sedan skickas (när besökaren klickar på "skicka") till följa
 * Fältet "storlek" ska vara förifyllt med alternativet "M", men samtidigt lista de andra alternativen i ordningen: XS, S, M, L, XL
 * Formuläret ska skicka besökaren till följande adress `http://dist1.webbintro.se/resources/response.php` med metoden `GET`
 * Knappen "återställ" ska återställa (nollställa) formuläret
+* HTML-attributet `name` **måste** användas på samtliga formulärsfält (dvs. textfält, radioknapp, osv.)
 
 Kvalitén på er kod kommer även att bedömas.
 
@@ -99,6 +100,6 @@ Kvalitén på er kod kommer även att bedömas.
 
 *Glöm inte att kontrollera alla kraven innan du lämnar in din uppgift.*
 
-När du är färdig med din uppgift ska du ladda upp din `.zip` fil på It's learning. Du ska även publicera din lösning på dvwebb och bifoga en länk till er sida i kommentarsfältet på It's learning vid inlämning.
+När du är färdig med din uppgift ska du ladda upp **en** `.zip` fil innehållande alla dina filer på It's learning. Du ska även publicera din lösning på dvwebb och bifoga en länk till er sida i kommentarsfältet på It's learning vid inlämning.
 
 Lycka till!

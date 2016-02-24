@@ -72,7 +72,7 @@ Svaren på frågorna ska vara kortfattade men heltäckande och presenteras på e
 
 **Följande krav ställs på er kod:**
 
-* Valideras genom [W3C's valideringsverktyg](http://validator.w3.org)
+* Valideras genom [W3C's valideringsverktyg](http://validator.w3.org) - koden **måste** därför vara felfri
 * Korrekt struktur i form av indentering (indrag)
 * Dokumentation i form av kommentarer
 
@@ -93,6 +93,6 @@ Kvalitén på er kod kommer även att bedömas.
 
 *Glöm inte att kontrollera alla kraven innan du lämnar in din uppgift.*
 
-När du är färdig med din uppgift så ska du ladda upp din `.zip` fil på It's learning. Du ska även publicera din lösning på dvwebb (en [guide om detta finner du här](/courses/da280a/material/m1_intro_dvwebb.html)) - glöm inte att bifoga en länk till din sida i kommetarsfältet på It's learning.
+När du är färdig med din uppgift ska du ladda upp **en** `.zip` fil innehållande alla dina filer på It's learning Du ska även publicera din lösning på ddwap (en [guide om detta finner du här](/courses/da280a/material/m1_intro_dvwebb.html)) - glöm inte att bifoga en länk till din sida i kommetarsfältet på It's learning.
 
 Lycka till!
