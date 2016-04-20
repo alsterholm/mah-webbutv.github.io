@@ -22,7 +22,7 @@ Efter genomförd laboration ska du:
 
 I denna laboration ska du utgå från ett färdigt HTML-dokument för att sedan gradvis bygga på med mer och mer CSS. På vägen kommer du att stöta på många av de grundläggande koncept inom CSS som krävs för att utforma en visuellt förbättrad webbplats.
 
-Börja med att [ladda ner detta HTML-dokument](/assets/material/da280a_ex_css_html.html) (högerklicka och välj "Spara som" eller motsvarande). Ta sedan en titt på hur dokumentet är uppbyggt - strukturen på HTML-dokumentet och dess element är väldigt viktigt att känna till för att sedan kunna applicera CSS (utseende).
+Börja med att [ladda ner detta HTML-dokument](/assets/material/da280a_ex_css_webpage.html) (högerklicka och välj "Spara som" eller motsvarande). Ta sedan en titt på hur dokumentet är uppbyggt - strukturen på HTML-dokumentet och dess element är väldigt viktigt att känna till för att sedan kunna applicera CSS (utseende).
 
 När du öppnar HTML-dokumentet i en webbläsare så kommer du finna att det inte är så visuellt tilltalande (eftersom ingen CSS ännu är applicerad). Detta kan vi ändra - genom att skriva en stilmall med CSS! Genom en CSS-fil (stilmall) kan vi ändra på det utseende som webbläsaren anger som standardvärde och överskrida med vad vi själv finner passar. Vart börjar vi då med att skriva vår CSS? Det finns ett par alternativ, just nu börjar vi med att lägga till elementet `<style>` i sidhuvudet (`<head>`) på följande vis:
 
