@@ -104,8 +104,8 @@ Nu kommer vi att lämna HTML och CSS för en liten stund och istället inrikta o
 
 En bra start är att läsa de föreläsningar som finns på denna kurswebbplats:
 
-* [JavaScript: Grunder]()
-* [JavaScript: Grunder 2]()
+* [JavaScript: Grunder](/courses/da122a/material/js_grunder.html)
+* [JavaScript: Grunder 2](/courses/da122a/material/js_grunder_2.html)
 
 Andra bra startpunkter är dessa källorna:
 
@@ -120,13 +120,13 @@ Nu när vi börjat komma igång med JavaScript ska vi titta vidare på hur vi ka
 
 Innan ni börjar att titta på nya föreläsningar kan det vara en god idé att repetera de två föregående föreläsningarna så att ni kommer in i JavaScript tänket igen:
 
-* [JavaScript: Grunder]()
-* [JavaScript: Grunder 2]()
+* [JavaScript: Grunder](/courses/da122a/material/js_grunder.html)
+* [JavaScript: Grunder 2](/courses/da122a/material/js_grunder_2.html)
 
 När ni gjort det så kan ni gå vidare och titta på föreläsningarna:
 
-* [JavaScript: Arrayer och funktioner]()
-* [JavaScript: Programmeringsprinciper]()
+* [JavaScript: Arrayer och funktioner](http://dvwebb.mah.se/tsanti/HT2012/DA122A/Material/JS/3.php)
+* [JavaScript: Programmeringsprinciper](http://dvwebb.mah.se/tsanti/HT2012/DA122A/Material/JS/4.php)
 
 [Videoföreläsning om nästlade arrayer för de intresserade finns här](https://www.youtube.com/watch?v=BTPJvEuGvTk&feature=youtu.be).
 
@@ -143,7 +143,7 @@ I denna modul ska vi kombinera våra kunskaper inom webbutveckling (HTML och CSS
 
 Fokus i denna del kommer framförallt att ligga på händelsehantering, t.ex. att vi vill att en funktion ska köras när vi klickar på en knapp på en webbplats (HTML-dokument). Alltså vi vill knyta vårt gränssnitt i HTML och CSS till våra funktioner i JavaScript (dvs. vi skapar interaktivitet). En introduktion kring hur detta fungerar hittar ni här:
 
-* [JavaScript: Event handlers]()
+* [JavaScript: Event handlers](http://webshare.mah.se/tsanti/VT12/DA122A/Material/JS/5.html)
 
 Inlämningsuppgiften kommer att fokusera på händelsehanterare (eng. event handlers) genom tre interaktioner med användaren:
 
@@ -159,7 +159,7 @@ Nu när vi lärt oss att koppla användarhändelser på en webbplats (t.ex. klic
 
 Vi kommer även titta på hur vi kan navigera runt i HTML-koden genom JavaScript (DOM) och hitta relationer mellan HTML-element, så som barn, föräldrar och syskon. En bra introduktion till detta finns här:
 
-* [JavaScript: DOM]()
+* [JavaScript: DOM](http://webshare.mah.se/tsanti/VT12/DA122A/Material/JS/6.html)
 
 Inlämningsuppgiften kommer att fokuser på följande:
 
