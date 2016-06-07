@@ -9,12 +9,12 @@
   credits: 7.5
   info: 25% Distans
 
-# - name: "Webbutveckling 2: Klient"
-#   code: daxxxa
-#   credits: 7.5
-#   info: 25% Distans
-# 
-# - name: "Webbutveckling 2: server"
-#   code: daxxxa
-#   credits: 7.5
-#   info: 25% Distans
+- name: "Webbutveckling 2: Server & Back-end"
+  code: da282a_da266a
+  credits: 7.5
+  info: 25% Distans
+
+- name: "Webbutveckling 2: Klient & Front-end"
+  code: da281a_da265a
+  credits: 7.5
+  info: 25% Distans
