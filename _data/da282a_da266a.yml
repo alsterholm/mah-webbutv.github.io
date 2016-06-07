@@ -1,0 +1,40 @@
+# General information
+name: "Webbutveckling 2: Server & Back-end"
+code: da282a_da266a
+credits: 7.5
+
+# Sidebar
+menu:
+    - label: Planering
+      file: plan
+      
+    - label: Moduler
+      submenu: true
+      prefix: mod
+      folder: modules
+      items:
+          - name: 1. Programmeringsmiljö
+          - name: 2. Introduktion till programmering 1
+          - name: 3. Introduktion till programmering 2
+          - name: "4. Flask: Del 1"
+          - name: "5. Flask: Del 2"
+          - name: 6. Projekt
+
+    - label: Uppgifter
+      submenu: true
+      prefix: uppg
+      folder: assignments
+      items:
+          - name: Inlämningsuppgift 1
+          - name: Inlämningsuppgift 2
+          - name: Inlämningsuppgift 3
+          - name: Inlämningsuppgift 4
+          - name: Inlämningsuppgift 5
+          - name: Inlämningsuppgift 6
+
+    - label: Material
+      folder: material
+
+    - label: Frågor och svar
+      file: faq
+

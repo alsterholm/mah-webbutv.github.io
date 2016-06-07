@@ -32,7 +32,7 @@ sass:
   sass_dir: _sass
   style: :compressed
 # Files to be excluded (feel free to exclude files like: search.json, rss.xml, humans.txt, etc.)
-exclude: ['Gemfile', 'Gemfile.lock', 'README.md', 'LICENSE.txt', 'node_modules']
+exclude: ['Gemfile', 'Gemfile.lock', 'README.md', 'LICENSE.txt', 'node_modules', 'webpack.config.js']
 # Encoding
 encoding: utf-8
 # Main navigation (also found in the footer)
