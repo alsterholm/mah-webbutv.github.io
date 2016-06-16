@@ -12,8 +12,8 @@ Betyg: U/G
 
 Inför denna uppgiften bör ni gå igenom följande två övningar:
 
-* [Övning: Arraymetoder](/courses/da281_da265a/material/array_methods.html)
-* [Övning: React](/courses/da281_da265a/material/react_exercise.html)
+* [Övning: Arraymetoder](/courses/da281a_da265a/material/array_methods.html)
+* [Övning: React](/courses/da281a_da265a/material/react_exercise.html)
 
 Det rekommenderas även starkt att ta en titt på följande källor:
 
