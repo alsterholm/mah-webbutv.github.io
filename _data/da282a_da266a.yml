@@ -35,6 +35,6 @@ menu:
     - label: Material
       folder: material
 
-    - label: Frågor och svar
-      file: faq
+    # - label: Frågor och svar
+    #   file: faq
 
