@@ -9,7 +9,7 @@ code: da282a_da266a
 
 ## Beskrivning
 
-Kursen är uppdelad i 6 moduler som behandlar olika områden inom webbutveckling med inriktning mot servern. Nedan presenteras en kort plan över dessa och därefter en kortare beskrivning av varje modul. Deadline för inlämningsuppgifterna i de olika modulerna finns på [It's learning](https://mah.itslearning.com/Index.aspx), oftast är detta på söndagen (23:59) för den sista veckan för modulen.
+Kursen är uppdelad i 6 moduler som behandlar olika områden inom webbutveckling med inriktning mot servern. Nedan presenteras en kort plan över dessa. Deadline för inlämningsuppgifterna i de olika modulerna finns på [It's learning](https://mah.itslearning.com/Index.aspx), oftast är detta på söndagen (23:59) för den sista veckan för modulen.
 
 ### Moduler
 
@@ -36,22 +36,3 @@ Kursen är uppdelad i 6 moduler som behandlar olika områden inom webbutveckling
 | 1 | - | [Inlämningsuppgift 6](/courses/da282a_da266a/assignments/uppg6.html) |
 | 2 | Kompletteringar |
 {: .small}
-
-
-#### Modul 1 - Programmeringsmiljö
-
-
-#### Modul 2 - Introduktion till programmering 1
-
-
-#### Modul 3 - Introduktion till programmering 2
-
-
-#### Modul 4 - Flask: Del 1
-
-
-#### Modul 5 - Flask: Del 2
-
-
-#### Modul 6 - Projekt
-
