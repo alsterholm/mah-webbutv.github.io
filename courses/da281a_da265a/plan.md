@@ -15,24 +15,24 @@ Kursen är uppdelad i 6 moduler som behandlar olika områden inom webbutveckling
 
 | Vecka | Moment | Deadline |
 |:-----:|:------:|:--------:|
-| 35 | [Modul 1 - Programmeringsmiljö](/courses/da282a_da266a/modules/mod1.html) ||
+| 35 | [Modul 1 - Programmeringsmiljö](/courses/da281a_da265a/modules/mod1.html) ||
 | 36 | - ||
-| 37 | - | [Inlämningsuppgift 1](/courses/da282a_da266a/assignments/uppg1.html) |
-| 38 | [Modul 2 - Introduktion till programmering](/courses/da282a_da266a/modules/mod2.html) ||
+| 37 | - | [Inlämningsuppgift 1](/courses/da281a_da265a/assignments/uppg1.html) |
+| 38 | [Modul 2 - Introduktion till programmering](/courses/da281a_da265a/modules/mod2.html) ||
 | 39 | - ||
-| 40 | - | [Inlämningsuppgift 2](/courses/da282a_da266a/assignments/uppg2.html) |
-| 41 | [Modul 3 - DOM](/courses/da282a_da266a/modules/mod3.html) ||
+| 40 | - | [Inlämningsuppgift 2](/courses/da281a_da265a/assignments/uppg2.html) |
+| 41 | [Modul 3 - DOM](/courses/da281a_da265a/modules/mod3.html) ||
 | 42 | - ||
-| 43 | - | [Inlämningsuppgift 3](/courses/da282a_da266a/assignments/uppg3.html) |
-| 44 | [Modul 4 - AJAX](/courses/da282a_da266a/modules/mod4.html) ||
+| 43 | - | [Inlämningsuppgift 3](/courses/da281a_da265a/assignments/uppg3.html) |
+| 44 | [Modul 4 - AJAX](/courses/da281a_da265a/modules/mod4.html) ||
 | 45 | - ||
-| 46 | - | [Inlämningsuppgift 4](/courses/da282a_da266a/assignments/uppg4.html) |
-| 47 | [Modul 5 - React](/courses/da282a_da266a/modules/mod5.html) ||
+| 46 | - | [Inlämningsuppgift 4](/courses/da281a_da265a/assignments/uppg4.html) |
+| 47 | [Modul 5 - React](/courses/da281a_da265a/modules/mod5.html) ||
 | 48 | - ||
-| 49 | - | [Inlämningsuppgift 5](/courses/da282a_da266a/assignments/uppg5.html) |
-| 50 | [Modul 6 - Projekt](/courses/da282a_da266a/modules/mod6.html) ||
+| 49 | - | [Inlämningsuppgift 5](/courses/da281a_da265a/assignments/uppg5.html) |
+| 50 | [Modul 6 - Projekt](/courses/da281a_da265a/modules/mod6.html) ||
 | 51 | - ||
 | 52 | - ||
-| 1 | - | [Inlämningsuppgift 6](/courses/da282a_da266a/assignments/uppg6.html) |
+| 1 | - | [Inlämningsuppgift 6](/courses/da281a_da265a/assignments/uppg6.html) |
 | 2 | Kompletteringar |
 {: .small}
