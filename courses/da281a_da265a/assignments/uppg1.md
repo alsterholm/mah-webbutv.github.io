@@ -146,6 +146,47 @@ I uppgift 10 ska ni använda er av en `for`-loop för att slippa att manuellt an
 
 **Glöm inte kontrollera att ni skickat med svar på alla uppgifter och att ni följt kravspecifikationen.**
 
-När du är färdig med din uppgift ska du ladda upp denna som en `.zip`-fil innehållande alla dina filer på It's Learning. Döp denna enligt formatet `inl1_lisa_a.zip`.
+Ni ska skriva all er JavaScript-kod i ett separat dokument (dvs. med filändelsen `.js`) (se exempelfilen main.js här nedan). Ni ska även skriva en enkel HTML-fil som länkar till Javascript-filen med en Script-tagg (se exempelfilen index.html här nedan). Skicka in dessa dokumentet (en HTML-fil och en JavaScript-fil) som en `.zip` på It's learning . Döp denna enligt formatet `inl1_Förnamn_Efternamn.zip`.Ni ska även ladda upp dessa filer på dvwebb och därefter ska ni även inkludera länken dit.
+
+Glöm inte att skriva ert namn och datorid högst upp i filen!
+
+Här nedan finner ni en exempelmall (HTML + JavaScript) för inlämningen:
+
+**index.html**
+
+{% highlight html linenos %}
+<!doctype html>
+<html>
+    <head>
+        <title>Inlämningsuppgift 1</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <script src="main.js"></script>
+    </body>
+</html>
+{% endhighlight %}
+
+**main.js**
+{% highlight js linenos %}
+/* Här kan ni placera ert namn och dator-id. */
+
+/**
+ * Uppgift 1
+ * =========
+ */
+
+/**
+ * Uppgift 2
+ * =========
+ */
+
+/**
+ * Uppgift 3
+ * =========
+ */
+{% endhighlight %}
+
+
 
 Lycka till!
