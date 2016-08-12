@@ -192,6 +192,6 @@ Tips: använd er av loopen `for (var attribute in obj) { ... }` för att gå ige
 
 **Glöm inte kontrollera att ni skickat med svar på alla uppgifter och att ni följt kravspecifikationen.**
 
-När du är färdig med din uppgift ska du ladda upp denna som en `.zip`-fil innehållande alla dina filer på It's Learning. Döp denna enligt formatet `inl2_lisa_a.zip`.
+När du är färdig med din uppgift ska du ladda upp denna som en `.zip`-fil innehållande alla dina filer på It's Learning (på samma sätt som inlämningsuppgift 1). Döp denna enligt formatet `inl2_Förnamn_Efternamn.zip`.
 
 Lycka till!
