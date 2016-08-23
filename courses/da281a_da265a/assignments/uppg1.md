@@ -114,7 +114,7 @@ Med denna array ska ni skriva ut resultatet konsollen i formatet: `"Sherlock - W
 I uppgift 9 ska ni använda er av en `if`-sats som styr vilken utskrift det blir i konsollen givet värdet på en variabel. Denna if-sats ska innehålla tre delar och utföra jämförelser mot en variabel med namnet `amount`.
 
 1. Om variabeln `amount` är *mindre än* `50` så ska ni skriva ut `"Less then 50!"` i konsollen
-2. Om variabeln `amount` är *mer än* `50` och *mindre än* `65` så ska ni skriva ut `"Optimal range for the amount!"` i konsollen
+2. Om variabeln `amount` är *mer än eller lika med* `50` och *mindre än* `65` så ska ni skriva ut `"Optimal range for the amount!"` i konsollen
 3. I alla andra fall så ska ni skriva ut `"Too much!"`
 
 ### Uppgift 10
